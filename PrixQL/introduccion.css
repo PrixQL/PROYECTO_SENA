@@ -1,0 +1,222 @@
+*
+{
+box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    background-color:rgb(227, 215, 250);
+    font-family:sans-serif;
+}
+
+
+h1{  font-size: 3.5em;}
+h2{  font-size: 2.7em;}
+h3{  font-size: 2.7em;}
+p{  font-size: 1.25em;}
+ul{list-style: none;}
+li{ font-size: 1.70;}
+
+button
+{
+    font-size: 1.5em;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+button:hover
+{
+    background-color: rgb(160, 94, 222);
+}
+.conteiner
+{
+    max-width: 1400px;
+    margin: auto;
+}
+header
+{
+    background-color: rgb(245, 245, 245);
+}
+header .logo
+{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+
+}
+header .conteiner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header a
+{
+    padding: 8px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+header a:hover
+{
+    color: blueviolet;
+}
+#hero
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ) 
+  ,url(recursos/control.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#somos-PrixQL
+{
+
+}
+.color-acento{color: blueviolet;}
+#somos-PrixQL .conteiner
+{
+ text-align: center;
+ padding: 200px 12px;   
+}
+#nuestras-funciones
+{
+    background-color: rgb(30, 30, 30);  
+    color: white;
+    text-align: center;
+}
+#nuestras-funciones .conteiner
+{
+    padding: 150px 0px;
+    
+}
+#nuestras-funciones p
+{
+    display: none;
+}
+#nuestras-funciones h2
+{
+    margin-top: 0px;
+}
+#nuestras-funciones .carta1
+{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      ) 
+      ,url(recursos/productos.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      
+      padding: 50px;
+      margin: 20px;
+      border-radius: 35px;
+}
+#nuestras-funciones .carta2
+{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      ) 
+      ,url(recursos/control.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+     
+      padding: 50px;
+      margin: 20px;
+      border-radius: 35px;
+}
+#nuestras-funciones .carta3
+{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      ) 
+      ,url(recursos/estadistica.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      
+      padding: 50px;
+      margin: 20px;
+      border-radius: 35px;
+}
+
+#caracteristicas .conteiner
+{
+    margin: 250px 12px;
+    text-align: center;
+    
+    
+}
+#caracteristicas li
+{
+    
+    font-weight: bold;
+    
+}
+#aplica-ya 
+{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+}
+#hero a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner a
+{ 
+    text-decoration: none;
+}
+
+#aplica-ya a
+{ 
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+
+#nuestras-funciones .cont-cartas a
+{
+    color: white;
+}
+
